@@ -26,7 +26,7 @@ public class App {
 
         server.createContext("/", exchange ->
                 respond(exchange, 200,
-                        "{\"message\":\"Project 5 Assignment: Enterprise CI/CD to Kubernetes\",\"status\":\"ok\"}"));
+                        "{\"message\":\"Project 5 Assignment: Enterprise CI/CD to Kubernetes\",\"status\":\"okay\"}"));
 
         server.createContext("/health", exchange ->
                 respond(exchange, 200, "{\"status\":\"healthy\"}"));
