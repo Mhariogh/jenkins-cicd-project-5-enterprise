@@ -16,8 +16,8 @@ pipeline {
     environment {
         // ----- EDIT THESE -----
         AWS_REGION  = 'us-east-1'
-        ECR_ACCOUNT = '123456789012'
-        ECR_REPO    = 'cicd-project-3'
+        ECR_ACCOUNT = '664267705879'
+        ECR_REPO    = 'cicd-project-5'
         EKS_CLUSTER = 'cicd-cluster'
         // ----------------------
 

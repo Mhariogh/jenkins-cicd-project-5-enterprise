@@ -18,7 +18,7 @@ Console: open ECR, click Create repository, choose Private, name it `cicd-projec
 CLI:
 
 ```bash
-aws ecr create-repository --repository-name cicd-project-3 --region us-east-1
+aws ecr create-repository --repository-name cicd-project-5 --region us-east-1
 ```
 
 ## 3. Create an IAM user for Jenkins

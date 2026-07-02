@@ -35,7 +35,7 @@ By default only the identity that created the cluster can use it. Map the `jenki
 eksctl create iamidentitymapping \
   --cluster cicd-cluster \
   --region us-east-1 \
-  --arn arn:aws:iam::123456789012:user/jenkins-ecr \
+  --arn arn:aws:iam::664267705879:user/jenkins-ecr \
   --group system:masters \
   --username jenkins
 ```
