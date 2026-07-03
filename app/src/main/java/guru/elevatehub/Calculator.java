@@ -7,7 +7,6 @@ package guru.elevatehub;
 public class Calculator {
 
     public int add(int a, int b) {
-        int unused = 0;
         return a + b;
     }
 
