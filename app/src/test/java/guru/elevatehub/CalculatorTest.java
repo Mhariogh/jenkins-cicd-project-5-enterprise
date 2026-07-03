@@ -23,4 +23,10 @@ class CalculatorTest {
         assertEquals(4, calculator.subtract(5, 1));
         assertEquals(-2, calculator.subtract(1, 3));
     }
+   
+    @Test
+    void testSquare() {
+        assertEquals(25, calculator.square(5));
+        assertEquals(9, calculator.square(3));
+}
 }
