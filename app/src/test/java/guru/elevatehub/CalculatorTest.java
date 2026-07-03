@@ -28,5 +28,5 @@ class CalculatorTest {
     void testSquare() {
         assertEquals(25, calculator.square(5));
         assertEquals(9, calculator.square(3));
-}
+    }
 }
