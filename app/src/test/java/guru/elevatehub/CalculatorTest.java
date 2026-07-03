@@ -25,8 +25,8 @@ class CalculatorTest {
     }
    
     @Test
-    void testSquare() {
-        assertEquals(25, calculator.square(5));
-        assertEquals(9, calculator.square(3));
+    void testmultiply() {
+        assertEquals(10, calculator.multiply(2, 5));
+        assertEquals(9, calculator.multiply(3, 3));
     }
 }
